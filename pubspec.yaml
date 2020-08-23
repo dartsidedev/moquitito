@@ -1,0 +1,15 @@
+name: moquitito
+description: MQTT command-line client written in Dart. Inspired by mosquitto_pub/sub.
+version: 0.1.0-dev
+
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dev_dependencies:
+  pedantic: ^1.8.0
+  test: ^1.6.0
+  # Generate version and help info using the build_pubspec package
+  build_runner: ^1.0.0
+  build_pubspec: 0.1.2-dev1
